@@ -1,0 +1,27 @@
+Daten beschreiben
+https://github.com/HistAI/HISTAI
+Laaff
+https://registry.opendata.aws/cobra/
+weitere von https://pmc.ncbi.nlm.nih.gov/articles/PMC12106639/#notes4
+Daten aufräumen
+ICD Code versehen
+ICD Code validieren
+sonstige Qualitätsmerkmale
+Datenfilter erstellen
+Benchmark 1 mit …
+Benchmark 2 mit …
+…
+Setup Cluster
+Daten übertragen
+Framework Slurm Script
+Umgebung
+Foundationmodelle
+Sammeln
+Beschreiben
+Feature Vektoren erstellen
+Benchmarking
+Splits definieren
+Stratifizieren
+Linear probing
+weitere PEFT Methoden
+inhouse Methode
