@@ -1,0 +1,11 @@
+Foundation Model Name,Publication Date,Journal Name,Pretraining Dataset Name,Number of GPUs/Type Used for Training,Embedding Level (patch/slide),Number of WSIs,Number of Patch Images (Million),Number of Patients,More than 10 types of organs in the dataset?,Staining Types (H&E/H&E+Others),FFPE/frozen,VFM/MFM,Model Publicly Available?,Hours trained (estimate),Skin?,Number of targetet diseases (skin)?,Reported Acc.
+CTransPath,2022,Medical Image Analysis,TCGA PAIP,48/ NVIDIA V100 GPUs,patch,29763(TCGA) 2457(PAIP),15,Not specified,Yes,Not specified,"FFPE, frozen",VFM,Yes,250,,,
+(Lunit),2022,arxiv,TCGA TULIP,64/ NVIDIA V100 GPUs,patch,20994(TCGA) 15672(TULIP),32.6,Not specified,Yes,H&E,Not specified,VFM,Yes,256,,,
+PLIP,2022,Nature Medicine,OpenPath,Not specified,patch,Not specified,0,Not specified,Yes,H&E+Others,Not specified,MFM,Yes,Skipped since multimodal,,,
+Virchow,2023,Nature Medicine,MSKCC,-/ NVIDIA A100 GPUs,patch,1488550,2000,199629,Yes,H&E,FFPE,VFM,Yes,Assuming 12 A100 ~ 4152,,,
+UNI,2024,Nature Medicine,Mass-100K Mass-1K Mass-22K,32/ NVIDIA A100 GPUs,patch,100426,100,Not specified,Yes,H&E,FFPE,VFM,Yes,,,,
+CONCH,2024,Nature Medicine,Educational sources PubMed Central Open Access Dataset,8/ NVIDIA A100 GPUs,patch,Not Specified,1,Not specified,Yes,H&E+Others,Not Specified,MFM,Yes,,,,
+PRISM,2024,arxiv,MSKCC,16/ NVIDIA V100 GPUs,slide,587196,Not specified,195344,Yes,H&E,Not Specified,MFM,Yes,,,,
+Prov-GigaPath,2024,Nature,Dataset from Providence,16 nodes x 4/ NVIDIA A100 GPUs,slide,171189,1300,>30000,Yes,H&E+Others,Not Specified,MFM,Yes,,,,
+TANGLE,2024,CVPR2024,TCGA TG-GATEs,16 nodes × 8/ NVIDIA A100 GPUs,slide,2074(TCGA) 6597(TC-GATEs),15,>1864,No,Not Specified,Not Specified,MFM,No,,No,0,-
+RudolphV,2024,arxiv,Dataset from over 15 different laboratories across the EU and US TCGA,16/ NVIDIA A100 GPUs,patch,133998,1200,34103,Yes,H&E+Others,"FFPE, frozen",VFM,Yes,~ 5579,“Soft and bone tissue” < 1%,"Not supplied (SI missing), 31 in total over all tissue types",Hard to interpret

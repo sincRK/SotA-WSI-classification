@@ -1,0 +1,31 @@
+Foundation Model Name,"Number of GPUs/
+Type Used for Training (reported by Meta Analysis)","Number of GPUs/
+Type Used for Training (reported by original if available)",Model architecture,Training paradigm,Training Specifics,WSI Specifics,"Instances
+Images x Patches","Batch Size
+Total",Epochs,"Tflops
+BF16 or FP16 ","Train time
+Hours","Modell Konstante kM compared to github
+T = Instances/Batch*Epoch/Tflops * kM","Estimated
+Train time","Estimated
+KM"
+CTransPath,48/ NVIDIA V100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+(Lunit),64/ NVIDIA V100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+PLIP,Not specified,,,,,,,,,,,,#DIV/0!,#DIV/0!
+Virchow,-/ NVIDIA A100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+UNI,32/ NVIDIA A100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+CONCH,8/ NVIDIA A100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+PRISM,16/ NVIDIA V100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+Prov-GigaPath,16 nodes x 4/ NVIDIA A100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+TANGLE,16 nodes × 8/ NVIDIA A100 GPUs,,,,,,,,,,,,#DIV/0!,#DIV/0!
+RudolfV,16/ NVIDIA A100 GPUs,16/ NVIDIA A100-40GB GPUs,ViT-L/14,"DINOv2 
++ registers 
++ pretraining LVD-142M","Augmentations:
+Custom 
++ 90°/180°/270° rotations 
+– solarization
+Lr:
+Cosine 2*10^-4 to 0
+100k warm-up
+Decay 0.04 to 0.2 for 625k","Patch size 256x256
+Resolution 20x/0.5mpp",1250000000,960,1250,312,-,0.001069376579281,5578.59543645536,#VALUE!
+https://github.com/facebookresearch/dinov2,12/ NVIDIA A100-80GB GPUs,12/ NVIDIA A100-80GB GPUs,ViT-L/14,DINOv2,Official github,-,14197122,768,1250,312,79.2,-,#VALUE!,0.001069376579281
