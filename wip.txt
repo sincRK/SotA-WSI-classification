@@ -23,7 +23,7 @@ Feature Vektoren erstellen
 Splits definieren
 Stratifizieren
 Linear probing
-weitere PEFT Methoden
+weitere PEFT Methoden (LoRA, ...)
 inhouse Methode
 7. Masterarbeit & Paper schreiben
 …
