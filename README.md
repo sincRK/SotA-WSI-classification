@@ -13,3 +13,4 @@ Vision-KAN: https://github.com/chenziwenhaoshuai/Vision-KAN
 # Theory
 Sheaf GNN: https://arxiv.org/abs/2502.15476
 KANs: https://arxiv.org/html/2406.09087v1
+Beispiel Benchmark-Paper: https://arxiv.org/html/2506.21444v1#S3
