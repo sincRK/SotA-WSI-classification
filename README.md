@@ -25,7 +25,7 @@ Effektivität von Transferlearning: https://arxiv.org/pdf/2506.09022<br>
 TRIDENT (WSI processing and feature extraction): https://github.com/mahmoodlab/TRIDENT<br>
 Patho-Bench (Benchmarking library for WSI): https://github.com/mahmoodlab/Patho-Bench<br>
 MIL-lab (MIL loading und Konkurenz): https://github.com/mahmoodlab/MIL-Lab<br>
-SSL_tile_benchmarks (Benchmark for Detection and Biomarker): https://github.com/sinai-computational-pathology/SSL_tile_benchmarks
+SSL_tile_benchmarks (Benchmark for Detection and Biomarker): https://github.com/sinai-computational-pathology/SSL_tile_benchmarks<br>
 BenchmarkingPathologyFoundationModels https://github.com/QuIIL/BenchmarkingPathologyFoundationModels<br>
 
 
