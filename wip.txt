@@ -5,6 +5,8 @@ https://registry.opendata.aws/cobra/
 weitere von https://pmc.ncbi.nlm.nih.gov/articles/PMC12106639/#notes4
 2. Daten aufräumen
 ICD Code versehen
+- ICD 10 to ICD 11 convertieren (da ICD-O in ICD 11 gesuptyped)
+- Codermodell evaluieren
 ICD Code validieren
 sonstige Qualitätsmerkmale
 3. Datenfilter erstellen

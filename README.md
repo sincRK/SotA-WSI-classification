@@ -52,3 +52,16 @@ This study conducts a thorough benchmarking analysis of ten slide-level aggregat
 # Meta-Reviews:
 Deep learning in computational dermatopathology of melanoma: A technical systematic literature review https://www.sciencedirect.com/science/article/pii/S0010482523005486<br>
 We aim to provide a structured and comprehensive overview of peer-reviewed publications on DL applied to dermatopathology focused on melanoma.<br>
+
+
+# Medical Coding:
+ICD-O und ICD-10 in ICD-11: https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology<br>
+Automated clinical coding using off-the-shelf
+large language models https://arxiv.org/pdf/2310.06552<br>
+In this work, we leverage off-the-shelf pre-trained generative
+large language models (LLMs) to develop a practical solution that is suitable for
+zero-shot and few-shot code assignment, with no need for further task-specific
+training.<br>
+Enhancing medical AI with retrieval-augmented generation: A mini narrative review https://pmc.ncbi.nlm.nih.gov/articles/PMC12059965/<br>
+Working with ICD-11 https://github.com/StefanoTrv/simple_icd_11<br>
+Local Deployment of ICD-11 https://icd.who.int/docs/icd-api/ICDAPI-LocalDeployment/<br>
