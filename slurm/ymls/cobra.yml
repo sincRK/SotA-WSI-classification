@@ -1,0 +1,10 @@
+name: cobra
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - openssl
+  - ca-certificates
+  - certifi
+  - awscli
+  - pip

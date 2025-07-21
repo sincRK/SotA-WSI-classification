@@ -7,6 +7,15 @@ N="${1:?Usage: $0 <n_shards> [target_dir] [filelist.json]}"
 TARGET_DIR="${2:-.}"
 FILELIST="${3:-./filelist.json}"
 
+# Pfad von Script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Check ob download_cobra_single.sh an der richtigen Stelle ist
+if [[ ! -f "$SCRIPT_DIR/download_cobra_single.sh" ]]; then
+  echo "Fehler: download_cobra_single.sh nicht gefunden im Skriptverzeichnis $SCRIPT_DIR" >&2
+  exit 1
+fi
+
 # Prüfen
 if ! command -v jq &>/dev/null; then
   echo "Fehler: 'jq' ist erforderlich." >&2
@@ -40,7 +49,7 @@ PIDS=()
 i=0
 for shard in "$TMPDIR"/shard_*.json; do
   echo "[*] Starte Shard $i: $shard"
-  ./download_cobra_single.sh "$TARGET_DIR" "$shard" > "$TMPDIR/shard_$i.log" 2>&1 &
+  ${SCRIPT_DIR}/download_cobra_single.sh "$TARGET_DIR" "$shard" > "$TMPDIR/shard_$i.log" 2>&1 &
   PIDS+=($!)
   i=$((i+1))
 done
@@ -51,6 +60,11 @@ FAIL=0
 for pid in "${PIDS[@]}"; do
   if ! wait "$pid"; then
     echo "[!] Fehler in Subprozess PID $pid"
+    # Spill log zu stdout
+    shard_index=$((${#PIDS[@]} - ${#PIDS[@]} + ${pid} % ${#PIDS[@]}))
+    echo "[*] Log für Shard $shard_index:"
+    cat "$TMPDIR/shard_$shard_index.log"
+    cp "$TMPDIR/shard_$shard_index.log" "$TARGET_DIR/shard_$shard_index.log"
     FAIL=1
   fi
 done
