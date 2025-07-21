@@ -1,0 +1,12 @@
+name: histai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - openssl
+  - ca-certificates
+  - certifi
+  - pip
+  - pip:
+    - huggingface-hub
+
