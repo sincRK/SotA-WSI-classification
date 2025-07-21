@@ -19,10 +19,6 @@ conda env create -f "${ROOT_DIR}/environment.yml" --yes
 conda activate histai
 
 huggingface-cli login --token $(cat "${ROOT_DIR}/.hf_token")
-
-python -c "from huggingface_hub import snapshot_download"
-
-python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='histai/histai-mixed', repo_type='dataset', local_dir='${ROOT_DIR}/mixed')"
-
+huggingface-cli download histai/HISTAI-mixed --repo-type dataset --local-dir ${ROOT_DIR}/mixed/
 
 
