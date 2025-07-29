@@ -19,8 +19,13 @@ module load devel/python/3.12_gnu_11.4
 IMG_DIR="/pfs/10/project/bw16k010/benchmark/histai/skin-b1"
 cp -r ${IMG_DIR} "${TMPDIR}/img_files"
 
+cd $TMPDIR
 git clone ${SOTAWSI}
 git clone ${TRIDENT_FORK}
 
 TRIDENT_ENV_DIR="${TMPDIR}/SotA-WSI-classification/slurm/ymls/trident.yml"
 conda activate trident || conda env create -f "$TRIDENT_ENV_DIR" --yes && conda activate trident
+
+SITE_PACKAGES=$(python -c "import sys; print(sys.get")
+cd ${TMPDIR}/TRIDENT
+echo $(pwd) > $(SITE_PACKAGES)/trident.pth
