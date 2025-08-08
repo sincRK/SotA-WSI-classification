@@ -17,12 +17,13 @@ echo "target_filename,original_path" > "$manifest"
 find "$src_root" -type f -name "*.${file_type}" | while read -r filepath; do
     # relativer Pfad ohne führendes foo/
     rel_path="${filepath#$src_root/}"
+    real_path=$(realpath "${filepath}")
 
     # Zielname aus Pfad generieren, Trennzeichen: _
     new_name="${rel_path//\//_}"
 
     # Eintrag ins Manifest schreiben
-    echo "$new_name,$filepath" >> "$manifest"
+    echo "$new_name,$real_path" >> "$manifest"
 done
 
 echo "Manifest geschrieben: $manifest"
