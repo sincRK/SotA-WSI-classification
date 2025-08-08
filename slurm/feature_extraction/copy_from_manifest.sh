@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Usage: 
 manifest="$1"
 target_dir="$2"
 
@@ -17,29 +18,34 @@ manifest_dir="$(cd "$(dirname "$manifest")" && pwd)"
 
 mkdir -p "$target_dir"
 
-overlap=""
+echo "Manifest dir ${manifest_dir}"
+
 tail -n +2 "$manifest" | while IFS=',' read -r target_filename original_path; do
 
-    IFS='/' read -r -a parts1 <<< "$manifest_dir"
-    IFS='/' read -r -a parts2 <<< "$original_path"
-    if [[ -z "$overlap" ]]; then
-        for ((i=0; i<${#parts1[@]}; i++)); do
-            slice1="${parts1[@]:i}"
-            slice1_join=$(IFS=/; echo "${slice1[*]}")
+    original_path_abs=$(realpath "$original_path")
+    overlap=""
 
-            if [[ "$original_path" == "$slice1_join"* ]]; then
-                overlap="$slice1_join"
-                break
-            fi
-        done
-    fi
+    IFS='/' read -r -a parts1 <<< "$manifest_dir"
+    IFS='/' read -r -a parts2 <<< "$original_path_abs"
+    for ((i=0; i<${#parts1[@]} && i<${#parts2[@]}; i++)); do
+    if [[ "${parts1[i]}" == "${parts2[i]}" ]]; then
+            overlap="${overlap}/${parts1[i]}"
+        else
+            break
+        fi
+    done
+
+    # Remove double slashes if any
+    overlap=$(echo "$overlap" | sed 's#//*#/#g')
+
+    echo "Overlap ${overlap}"
 
     if [[ -n "$overlap" ]]; then
         # Absolute Pfadangabe basierend auf Manifest-Verzeichnis
         overlap_len=${#overlap}
-        joined="${manifest_dir}${original_path:$overlap_len}"
+        joined="${manifest_dir}${original_path_abs:$overlap_len}"
     else
-        joined="${manifest_dir}/${original_path}"
+        joined="${manifest_dir}/${original_path_abs}"
     fi
 
     if [ ! -f "$joined" ]; then
