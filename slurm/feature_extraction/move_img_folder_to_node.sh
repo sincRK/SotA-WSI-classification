@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # move data to $TMPDIR
+# usage example /path/histai /path2/histai/data tiff
 root_img_folder="$1"
-extension="$2"
-target_dir="$3"
+target_dir="$2"
+extension="$3"
 
 # create manifest for root_img_folder
 bash ${TMPDIR}/feature_extraction/create_manifest.sh $root_img_folder $extension
