@@ -24,17 +24,23 @@ mkdir cobra/output
 mkdir pp
 mkdir pp/data
 mkdir pp/output
-# move model weights to trident
-HF_BENCH=/pfs/10/project/bw16k010/benchmark/hf_models_bench
-HF_TMP="${TMPDIR}/hf_models_bench"
-mkdir $HF_TMP
-# for patch_encoders
-cp /home/fr/fr_fr/fr_sr1178/feature_extraction/patch_encoder_models/local_ckpts.json ${TMPDIR}/TRIDENT/trident/patch_encoder_models/
-sed -i "s|$HF_BENCH|$HF_TMP|g" ${TMPDIR}/TRIDENT/trident/patch_encoder_models/local_ckpts.json
-# for segmentation_models
-cp /home/fr/fr_fr/fr_sr1178/feature_extraction/segmentation_models/local_ckpts.json ${TMPDIR}/TRIDENT/trident/segmentation_models/
-sed -i "s|$HF_BENCH|$HF_TMP|g" ${TMPDIR}/TRIDENT/trident/segmentation_models/local_ckpts.json
-# for slide_encoder_models
-cp /home/fr/fr_fr/fr_sr1178/feature_extraction/slide_encoder_models/local_ckpts.json ${TMPDIR}/TRIDENT/trident/slide_encoder_models/
-sed -i "s|$HF_BENCH|$HF_TMP|g" ${TMPDIR}/TRIDENT/trident/slide_encoder_models/local_ckpts.json
 
+# setup local model weights to trident
+MODEL_DIR=hf_models_bench
+HF_TMP="${TMPDIR}/${MODEL_DIR}"
+mkdir $HF_TMP
+
+# for patch_encoders
+INPUT_JSON="${TMPDIR}/TRIDENT/trident/patch_encoder_models/"
+cp ${TMPDIR}/feature_extraction/patch_encoder_models/local_ckpts.json $INPUT_JSON
+bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JSON $MODEL_DIR $TMPDIR
+
+# for segmentation_models
+INPUT_JSON="${TMPDIR}/TRIDENT/trident/segmentation_models/"
+cp ${TMPDIR}/feature_extraction/segmentation_models/local_ckpts.json $INPUT_JSON
+bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JSON $MODEL_DIR $TMPDIR
+
+# for slide_encoder_models
+INPUT_JSON="${TMPDIR}/TRIDENT/trident/slide_encoder_models/"
+cp ${TMPDIR}/feature_extraction/slide_encoder_models/local_ckpts.json $INPUT_JSON
+bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JSON $MODEL_DIR $TMPDIR
