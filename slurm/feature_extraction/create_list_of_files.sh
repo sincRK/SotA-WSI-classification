@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: ./create_list_of_files.sh /path/to/dir .tiff 0.25
+# Usage: ./create_list_of_files.sh /path/to/dir tiff 0.25
 
 target_dir="$1"
 extension="$2"
@@ -12,7 +12,7 @@ output_csv="${target_dir%/}/list_of_files.csv"
 echo "wsi,mpp" > "$output_csv"
 
 # Dateien mit passender Extension rekursiv finden und in CSV schreiben
-find "$target_dir" -type f -name "*${extension}" | while read -r file; do
+find "$target_dir" -type f -name "*.${extension}" | while read -r file; do
   abs_path=$(realpath "$file")
   echo "$abs_path,$mpp" >> "$output_csv"
 done
