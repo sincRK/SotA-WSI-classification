@@ -1,13 +1,16 @@
 #!/bin/bash
 
-# fetch all *.tiff
-cd ${TMPDIR}/histai/data/
-find . -type f -name '*.tiff' | awk -v mpp=0.5 'BEGIN {print "wsi,mpp"} {print $0","mpp}' > list_of_wsi.csv
+# Usage: extract_features.sh /path/data /path/output 8
+# Assumes list_of_wsi.csv in data dir and images in data dir
+DATA_DIR="$1"
+OUTPUT_DIR="$2"
+WORKERS="$3"
+
 # run feature_extraction on multi core (default 8)
 # as patch encoder
 # for uni
 # for uni2
-python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers 8 --wsi_dir $(pwd) --custom_list_of_wsis ./list_of_wsi.csv --job_dir ${TMPDIR}/histai/output/ --patch_encoder uni_v2
+python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers $WORKERS --wsi_dir $DATA_DIR --custom_list_of_wsis ${DATA_DIR}/list_of_wsi.csv --job_dir $OUTPUT_DIR --patch_encoder uni_v2
 # for phikon
 # for phikonv2
 # for ctranspath
