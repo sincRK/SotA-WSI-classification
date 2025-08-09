@@ -9,6 +9,7 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=sinclair.rockwell-kollmann@pharmazie.uni-freiburg.de
 #SBATCH -c 8
+#SBATCH --gres=gpu:a30:1
 
 # Set global vars the first two should be set per default
 # export HOME=
@@ -22,21 +23,21 @@ export BENCH=/pfs/10/project/bw16k010/benchmark/test
 # as global variables
 if [ -z "${TMPDIR+x}" ]; then
     echo "TMPDIR not set. Where is the scratch folder?"
-    exit(1)
+    exit 1
 else
     echo "Scratch folder set to ${TMPDIR}."
 fi
 
 if [ -z "${BENCH+x}" ]; then
     echo "BENCH not set. Where is the project base folder?"
-    exit(1)
+    exit 1
 else
     echo "Project base folder set to ${BENCH}."
 fi
 
 if [ -z "${HOME+x}" ]; then
     echo "HOME not set. Where is the config and script folder?"
-    exit(1)
+    exit 1
 else
     echo "Project base folder set to ${HOME}."
 fi
