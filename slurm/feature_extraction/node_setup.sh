@@ -6,13 +6,12 @@ cd $TMPDIR
 git clone -b dev --single-branch https://github.com/sincRK/TRIDENT.git
 # install TRIDENT
 module load devel/miniforge/24.9.2
-module load devel/python/3.12_gnu_11.4
 conda env create -f "${TMPDIR}/TRIDENT/environment.yml" --yes
 conda activate trident
 # add trident to python path
-SITE_PACKAGES=$(python -c "import sys; print(sys.get")
+SITE_PACKAGES=$(python -c "import sysconfig; print(sysconfig.get_paths()['purelib'])")
 cd ${TMPDIR}/TRIDENT
-echo $(pwd) > $(SITE_PACKAGES)/trident.pth
+echo $(pwd) > ${SITE_PACKAGES}/trident.pth
 # create data structure in $TMPDIR
 cd $TMPDIR
 mkdir histai
