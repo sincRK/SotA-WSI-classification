@@ -3,13 +3,14 @@
 #SBATCH --job-name=test_run
 #SBATCH --output=test_run.out
 #SBATCH --error=test_run.err
-#SBATCH --time=00:30:00
+#SBATCH --time=01:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=10000m
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=sinclair.rockwell-kollmann@pharmazie.uni-freiburg.de
-#SBATCH -c 8
-#SBATCH --gres=gpu:a30:1
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:a30:1          # Request 1x A30 GPU
+#SBATCH --partition=gpu          # Force job onto the A30 GPU nodes
 
 # Set global vars the first two should be set per default
 # export HOME=
@@ -53,7 +54,7 @@ bash ${TMPDIR}/feature_extraction/check_global_vars.sh
 bash ${TMPDIR}/feature_extraction/node_setup.sh
 
 # Copy the hf_models_bench folder
-cp -r ${BENCH}/hf_models_bench ${TMPDIR}
+cp -r ${BENCH}/hf_models_bench/* ${TMPDIR}/hf_models_bench/
 
 # Move imgs for each of histai, cobra and pp
 bash ${TMPDIR}/feature_extraction/move_img_folder_to_node.sh ${BENCH}/histai ${TMPDIR}/histai/data "tiff"
@@ -68,7 +69,7 @@ bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/pp/data "isy
 # Run feature extraction
 bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/histai/data ${TMPDIR}/histai/output 8
 bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/cobra/data ${TMPDIR}/cobra/output 8
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/pp/data ${TMPDIR}/pp/output 1
+bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/pp/data ${TMPDIR}/pp/output 1 # wrap in c shards
 
 # Copy data from node to bench
 bash ${TMPDIR}/feature_extraction/move_node_to_bench.sh
