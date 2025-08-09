@@ -17,6 +17,6 @@ find "$target_dir" -type f -name "*.${extension}" | while read -r file; do
   echo "$abs_path,$mpp" >> "$output_csv"
 done
 
-echo "Created list_of_files.csv at ${outpu_csv}"
+echo "Created list_of_files.csv at ${output_csv}"
 
 
