@@ -6,6 +6,10 @@ DATA_DIR="$1"
 OUTPUT_DIR="$2"
 WORKERS="$3"
 
+module load devel/miniforge/24.9.2
+conda activate trident
+which python
+
 # run feature_extraction on multi core (default 8)
 # as patch encoder
 # for uni

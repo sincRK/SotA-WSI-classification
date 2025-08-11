@@ -8,6 +8,8 @@ mpp="$3"
 
 output_csv="${target_dir%/}/list_of_files.csv"
 
+echo "Writing ${output_csv} of ${target_dir}"
+
 # CSV-Header schreiben
 echo "wsi,mpp" > "$output_csv"
 
@@ -17,6 +19,6 @@ find "$target_dir" -type f -name "*.${extension}" | while read -r file; do
   echo "$abs_path,$mpp" >> "$output_csv"
 done
 
-echo "Created list_of_files.csv at ${outpu_csv}"
+echo "Created list_of_files.csv at ${output_csv}"
 
 

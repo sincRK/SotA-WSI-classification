@@ -24,4 +24,6 @@ find "$src_root" -type f -name "*.${file_type}" | while read -r filepath; do
     echo "$new_name,$real_path" >> "$manifest"
 done
 
-echo "Manifest geschrieben: $manifest"
+abs_path=$(realpath "$manifest")
+
+echo "Manifest geschrieben: ${abs_path}" # output real path

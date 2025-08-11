@@ -1,0 +1,67 @@
+# Command template: must use placeholders that will be present in the context.
+# Required placeholders the wrapper always supplies: {shard_input}, {shard_output},
+# {shard_index}, {num_shards}. All other placeholders must exist under "args".
+exec_template: >-
+  python run_batch_of_slides.py
+  --gpu {gpu}
+  --task {task}
+  {skip_errors_flag}
+  --max_workers {max_workers}
+  --batch_size {batch_size}
+  {wsi_cache_arg}
+  --cache_batch_size {cache_batch_size}
+  --wsi_dir {wsi_dir}
+  --wsi_ext {wsi_ext}
+  --custom_list_of_wsis {shard_input}
+  --job_dir {shard_output}
+  {reader_type_arg}
+  {search_nested_flag}
+  --segmenter {segmenter}
+  --seg_conf_thresh {seg_conf_thresh}
+  {remove_holes_flag}
+  {remove_artifacts_flag}
+  {remove_penmarks_flag}
+  {seg_batch_size_arg}
+  --mag {mag}
+  --patch_size {patch_size}
+  --overlap {overlap}
+  --min_tissue_proportion {min_tissue_proportion}
+  {coords_dir_arg}
+  --patch_encoder {patch_encoder}
+  {patch_encoder_ckpt_path_arg}
+  {slide_encoder_arg}
+  {feat_batch_size_arg}
+
+args:
+  # numeric / string values (inserted verbatim into the template)
+  gpu: 0
+  task: all
+  max_workers: 8
+  batch_size: 64
+  cache_batch_size: 32
+  segmenter: hest
+  seg_conf_thresh: 0.5
+  mag: 20
+  patch_size: 256
+  overlap: 0
+  min_tissue_proportion: 0.0
+  patch_encoder: uni_v2
+  wsi_dir: ""
+
+  # flag / optional arguments: these must be pre-formatted tokens or empty string
+  # - set to "--flag" to enable the flag, set to "" to omit it
+  skip_errors_flag: ""            # set to "--skip_errors" to enable
+  search_nested_flag: ""          # set to "--search_nested" to enable
+  remove_holes_flag: ""           # set to "--remove_holes" to enable
+  remove_artifacts_flag: ""       # set to "--remove_artifacts" to enable
+  remove_penmarks_flag: ""        # set to "--remove_penmarks" to enable
+
+  # optional args that take a value: pre-format as e.g. "--seg_batch_size 32" or leave empty
+  seg_batch_size_arg: ""          # e.g. "--seg_batch_size 32"
+  wsi_cache_arg: ""               # e.g. "--wsi_cache /mnt/ssd"
+  wsi_ext: ""
+  reader_type_arg: ""             # e.g. "--reader_type cucim"
+  coords_dir_arg: ""              # e.g. "--coords_dir /path/to/coords"
+  patch_encoder_ckpt_path_arg: "" # e.g. "--patch_encoder_ckpt_path /path/to.ckpt"
+  slide_encoder_arg: ""           # e.g. "--slide_encoder your_encoder"
+  feat_batch_size_arg: ""         # e.g. "--feat_batch_size 32"
