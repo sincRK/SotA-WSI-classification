@@ -8,6 +8,8 @@ mpp="$3"
 
 output_csv="${target_dir%/}/list_of_files.csv"
 
+echo "Writing ${output_csv} of ${target_dir}"
+
 # CSV-Header schreiben
 echo "wsi,mpp" > "$output_csv"
 
