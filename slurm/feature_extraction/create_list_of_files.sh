@@ -4,7 +4,7 @@
 
 target_dir="$1"
 extension="$2"
-mpp="$3"
+mpp="$3" #mpp stands for microns per pixel
 
 output_csv="${target_dir%/}/list_of_files.csv"
 
