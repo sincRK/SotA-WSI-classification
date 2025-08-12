@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=tiny_test_run
-#SBATCH --output=tiny_test_run.out
-#SBATCH --error=tiny_test_run.err
+#SBATCH --output=${HOME}/tiny_test_run.out
+#SBATCH --error=${HOME}/tiny_test_run.err
 #SBATCH --time=00:20:00
 #SBATCH --nodes=1
 #SBATCH --mem=5000m
@@ -24,26 +24,26 @@ if [ -z "${TMPDIR+x}" ]; then
     echo "TMPDIR not set. Where is the scratch folder?"
     exit 1
 else
-    echo "Scratch folder set to ${TMPDIR}."
+    echo "TMPDIR set to ${TMPDIR}."
 fi
 
 if [ -z "${BENCH+x}" ]; then
     echo "BENCH not set. Where is the project base folder?"
     exit 1
 else
-    echo "Project base folder set to ${BENCH}."
+    echo "BENCH path set to ${BENCH}."
 fi
 
 if [ -z "${HOME+x}" ]; then
     echo "HOME not set. Where is the config and script folder?"
     exit 1
 else
-    echo "Project base folder set to ${HOME}."
+    echo "HOME path set to ${HOME}."
 fi
 
 # Copy the script folder to TMPDIR
 # Check for updates regularly
-cp -r ${HOME}/feature_extraction $TMPDIR
+cp -r ${HOME}/SotA-WSI-classification/slurm/feature_extraction $TMPDIR
 
 # Sanity check - should always pass
 bash ${TMPDIR}/feature_extraction/check_global_vars.sh
