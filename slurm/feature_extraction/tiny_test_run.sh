@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=tiny_test_run
-#SBATCH --output=${HOME}/tiny_test_run.out
-#SBATCH --error=${HOME}/tiny_test_run.err
+#SBATCH --output=logs/tiny_test_run.out
+#SBATCH --error=logs/tiny_test_run.err
 #SBATCH --time=00:20:00
 #SBATCH --nodes=1
 #SBATCH --mem=5000m
