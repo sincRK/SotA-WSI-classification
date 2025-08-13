@@ -3,7 +3,7 @@
 #SBATCH --job-name=test_run_sharded
 #SBATCH --output=test_run_sharded.out
 #SBATCH --error=test_run_sharded.err
-#SBATCH --time=01:00:00
+#SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=90000m
 #SBATCH --mail-type=END,FAIL
@@ -85,10 +85,17 @@ bash "${TMPDIR}/feature_extraction/create_list_of_files.sh" "${TMPDIR}/cobra/dat
 bash "${TMPDIR}/feature_extraction/create_list_of_files.sh" "${TMPDIR}/pp/data" "isyntax" 0.25
 
 bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/histai/data" "${TMPDIR}/histai/output" 8 4
-bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/cobra/data" "${TMPDIR}/cobra/output" 8 4
-bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/pp/data" "${TMPDIR}/pp/output" 1 32
+mkdir -p ${BENCH}/features/histai/
+mv ${TMPDIR}/histai/output ${BENCH}/features/histai/
 
-bash "${TMPDIR}/feature_extraction/move_node_to_bench.sh"
+bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/cobra/data" "${TMPDIR}/cobra/output" 8 4
+mkdir -p ${BENCH}/features/cobra/
+mv ${TMPDIR}/cobra/output ${BENCH}/features/cobra/
+
+bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/pp/data" "${TMPDIR}/pp/output" 1 32
+mkdir -p ${BENCH}/features/pp/
+mv ${TMPDIR}/pp/output ${BENCH}/features/pp/
+
 bash "${TMPDIR}/feature_extraction/node_cleanup.sh"
 
 # ==========================

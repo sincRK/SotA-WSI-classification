@@ -53,8 +53,9 @@ for shard_file in "$OUTPUT_DIR"/shard_tmp_*; do
     (
         module load devel/miniforge/24.9.2
         conda activate trident
+        which python
         python "${TMPDIR}/TRIDENT/run_batch_of_slides.py" \
-            --task all \
+            --task seg \
             --max_workers "$WORKERS" \
             --wsi_dir "$DATA_DIR" \
             --custom_list_of_wsis "$SHARD_LIST" \
