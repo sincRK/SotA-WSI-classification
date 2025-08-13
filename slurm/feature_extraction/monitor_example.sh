@@ -1,8 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=monitor_example
 #SBATCH --output=monitor_example.out
-#SBATCH --gres=gpu:1
-#SBATCH --time=00:10:00
+#SBATCH --gres=gpu:a30:1
+#SBATCH --time=00:01:00
+#SBATCH --partition=gpu
 
 # Start your actual job in the background
 bash ${HOME}/feature_extraction/test_gpu_access.sh &
