@@ -14,7 +14,7 @@ which python
 # as patch encoder
 # for uni
 # for uni2
-python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers $WORKERS --wsi_dir $DATA_DIR --custom_list_of_wsis ${DATA_DIR}/list_of_wsi.csv --job_dir $OUTPUT_DIR --patch_encoder uni_v2
+python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers $WORKERS --wsi_dir $DATA_DIR --custom_list_of_wsis ${DATA_DIR}/list_of_files.csv --job_dir $OUTPUT_DIR --patch_encoder uni_v2
 # for phikon
 # for phikonv2
 # for ctranspath
