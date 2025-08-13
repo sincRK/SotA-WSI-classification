@@ -11,17 +11,17 @@ OUTPUT_DIR="$2"
 WORKERS="$3"
 N_SHARDS="$4"
 
-LIST_FILE="${DATA_DIR}/list_of_wsi.csv"
+LIST_FILE="${DATA_DIR}/list_of_files.csv"
 
 if [[ ! -f "$LIST_FILE" ]]; then
-    echo "ERROR: Cannot find list_of_wsi.csv in ${DATA_DIR}"
+    echo "ERROR: Cannot find list_of_files.csv in ${DATA_DIR}"
     exit 1
 fi
 
 # Count number of lines excluding header
 TOTAL_LINES=$(($(wc -l < "$LIST_FILE") - 1))
 if (( TOTAL_LINES <= 0 )); then
-    echo "ERROR: list_of_wsi.csv has no data rows."
+    echo "ERROR: list_of_files.csv has no data rows."
     exit 1
 fi
 
@@ -44,7 +44,7 @@ for shard_file in "$OUTPUT_DIR"/shard_tmp_*; do
     SHARD_DIR="${OUTPUT_DIR}/shard_$(printf "%0${PAD_WIDTH}d" "$SHARD_INDEX")"
     mkdir -p "$SHARD_DIR"
 
-    SHARD_LIST="${SHARD_DIR}/list_of_wsi.csv"
+    SHARD_LIST="${SHARD_DIR}/list_of_files.csv"
     {
         echo "$HEADER"
         cat "$shard_file"
