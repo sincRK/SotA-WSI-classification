@@ -5,7 +5,7 @@
 #SBATCH --error=logs/%x_%j.err
 #SBATCH --time=00:20:00
 #SBATCH --nodes=1
-#SBATCH --mem=5000m
+#SBATCH --mem=10000m
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a30:1          # Request 1x A30 GPU
 #SBATCH --partition=gpu          # Force job onto the A30 GPU nodes
