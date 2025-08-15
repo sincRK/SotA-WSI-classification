@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Usage: extract_features.sh /path/data /path/output 8
-# Assumes list_of_wsi.csv in data dir and images in data dir
+# Assumes list_of_files.csv in data dir and images in data dir
 DATA_DIR="$1"
 OUTPUT_DIR="$2"
 WORKERS="$3"

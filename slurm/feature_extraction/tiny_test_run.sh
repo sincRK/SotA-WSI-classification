@@ -65,8 +65,8 @@ bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/cobra/data "
 bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/pp/data "isyntax" 0.25
 
 # Run feature extraction
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/histai/data ${TMPDIR}/histai/output 8
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/cobra/data ${TMPDIR}/cobra/output 8
+bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/histai/data ${TMPDIR}/histai/output 3
+bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/cobra/data ${TMPDIR}/cobra/output 3
 bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/pp/data ${TMPDIR}/pp/output 1 # wrap in c shards
 
 # Copy data from node to bench
