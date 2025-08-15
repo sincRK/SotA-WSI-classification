@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Usage: extract_features.sh /path/data /path/output 8
-# Assumes list_of_wsi.csv in data dir and images in data dir
+# Assumes list_of_files.csv in data dir and images in data dir
 DATA_DIR="$1"
 OUTPUT_DIR="$2"
 WORKERS="$3"
@@ -14,7 +14,7 @@ which python
 # as patch encoder
 # for uni
 # for uni2
-python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers $WORKERS --wsi_dir $DATA_DIR --custom_list_of_wsis ${DATA_DIR}/list_of_wsi.csv --job_dir $OUTPUT_DIR --patch_encoder uni_v2
+python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers $WORKERS --wsi_dir $DATA_DIR --custom_list_of_wsis ${DATA_DIR}/list_of_files.csv --job_dir $OUTPUT_DIR --patch_encoder uni_v2
 # for phikon
 # for phikonv2
 # for ctranspath
@@ -35,6 +35,6 @@ python ${TMPDIR}/TRIDENT/run_batch_of_slides.py --task all --max_workers $WORKER
 # for feather
 # for chief
 # for madeleine
-# for gigapath
-# for quiltnet-b16
+# for prov-gigapath
+# for quiltnet-b32
 # for beph
