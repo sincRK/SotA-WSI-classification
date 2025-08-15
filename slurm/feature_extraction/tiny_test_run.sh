@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #SBATCH --job-name=tiny_test_run
-#SBATCH --output=logs/tiny_test_run.out
-#SBATCH --error=logs/tiny_test_run.err
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --error=logs/%x_%j.err
 #SBATCH --time=00:20:00
 #SBATCH --nodes=1
-#SBATCH --mem=5000m
+#SBATCH --mem=10000m
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:a30:1          # Request 1x A30 GPU
 #SBATCH --partition=gpu          # Force job onto the A30 GPU nodes
@@ -65,8 +65,8 @@ bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/cobra/data "
 bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/pp/data "isyntax" 0.25
 
 # Run feature extraction
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/histai/data ${TMPDIR}/histai/output 8
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/cobra/data ${TMPDIR}/cobra/output 8
+bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/histai/data ${TMPDIR}/histai/output 3
+bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/cobra/data ${TMPDIR}/cobra/output 3
 bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/pp/data ${TMPDIR}/pp/output 1 # wrap in c shards
 
 # Copy data from node to bench
