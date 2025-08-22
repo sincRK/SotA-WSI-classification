@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=tiny_test_run
+#SBATCH --job-name=tiny_test_run_sharded
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 #SBATCH --time=00:20:00
@@ -52,9 +52,6 @@ inter_time=$SECONDS
 duration=$(( inter_time - start_time ))
 echo "time passed: ${duration}"
 
-# Sanity check - should always pass
-bash ${TMPDIR}/feature_extraction/check_global_vars.sh
-
 # Setup node
 bash ${TMPDIR}/feature_extraction/node_setup.sh
 
@@ -62,17 +59,17 @@ inter_time=$SECONDS
 duration=$(( inter_time - start_time ))
 echo "time passed: ${duration}"
 
-# Copy the hf_models_bench folder
-cp -r ${BENCH}/hf_models_bench/* ${TMPDIR}/hf_models_bench/
+# Copy the specific folder from /hf_models_bench
+cp -r "${BENCH}/hf_models_bench/uni_v2/" "${TMPDIR}/hf_models_bench/uni_v2/"
 
 inter_time=$SECONDS
 duration=$(( inter_time - start_time ))
 echo "time passed: ${duration}"
 
-# Move imgs for each of histai, cobra and pp
+# Move imgs
 bash ${TMPDIR}/feature_extraction/move_img_folder_to_node.sh ${BENCH}/histai ${TMPDIR}/histai/data "tiff"
-bash ${TMPDIR}/feature_extraction/move_img_folder_to_node.sh ${BENCH}/cobra ${TMPDIR}/cobra/data "tif"
-bash ${TMPDIR}/feature_extraction/move_img_folder_to_node.sh ${BENCH}/pp ${TMPDIR}/pp/data "isyntax"
+#bash ${TMPDIR}/feature_extraction/move_img_folder_to_node.sh ${BENCH}/cobra ${TMPDIR}/cobra/data "tif"
+#bash ${TMPDIR}/feature_extraction/move_img_folder_to_node.sh ${BENCH}/pp ${TMPDIR}/pp/data "isyntax"
 
 inter_time=$SECONDS
 duration=$(( inter_time - start_time ))
@@ -80,28 +77,24 @@ echo "time passed: ${duration}"
 
 # Create wsi,mpp lists for feature extraction
 bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/histai/data "tiff" 0.5
-bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/cobra/data "tif" 0.5
-bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/pp/data "isyntax" 0.25
+#bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/cobra/data "tif" 0.5
+#bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/pp/data "isyntax" 0.25
 
 inter_time=$SECONDS
 duration=$(( inter_time - start_time ))
 echo "time passed: ${duration}"
 
 # Run feature extraction
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/histai/data ${TMPDIR}/histai/output 3
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/cobra/data ${TMPDIR}/cobra/output 3
-bash ${TMPDIR}/feature_extraction/extract_features.sh ${TMPDIR}/pp/data ${TMPDIR}/pp/output 1 # wrap in c shards
+bash "${TMPDIR}/feature_extraction/feature_extraction_sharded.sh" "${TMPDIR}/histai/data" "${TMPDIR}/histai/output" 8 4
+mkdir -p ${BENCH}/features/histai/
+mv ${TMPDIR}/histai/output ${BENCH}/features/histai/
 
 inter_time=$SECONDS
 duration=$(( inter_time - start_time ))
 echo "time passed: ${duration}"
 
 # Copy data from node to bench
-bash ${TMPDIR}/feature_extraction/move_node_to_bench.sh
-
-inter_time=$SECONDS
-duration=$(( inter_time - start_time ))
-echo "time passed: ${duration}"
+#bash ${TMPDIR}/feature_extraction/move_node_to_bench.sh
 
 # Clean node
 bash ${TMPDIR}/feature_extraction/node_cleanup.sh
