@@ -84,15 +84,15 @@ bash "${TMPDIR}/feature_extraction/create_list_of_files.sh" "${TMPDIR}/histai/da
 bash "${TMPDIR}/feature_extraction/create_list_of_files.sh" "${TMPDIR}/cobra/data" "tif" 0.5
 bash "${TMPDIR}/feature_extraction/create_list_of_files.sh" "${TMPDIR}/pp/data" "isyntax" 0.25
 
-bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/histai/data" "${TMPDIR}/histai/output" 8 4
+bash "${TMPDIR}/feature_extraction/feature_extraction_sharded.sh" "${TMPDIR}/histai/data" "${TMPDIR}/histai/output" 8 4
 mkdir -p ${BENCH}/features/histai/
 mv ${TMPDIR}/histai/output ${BENCH}/features/histai/
 
-bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/cobra/data" "${TMPDIR}/cobra/output" 8 4
+bash "${TMPDIR}/feature_extraction/feature_extraction_sharded.sh" "${TMPDIR}/cobra/data" "${TMPDIR}/cobra/output" 8 4
 mkdir -p ${BENCH}/features/cobra/
 mv ${TMPDIR}/cobra/output ${BENCH}/features/cobra/
 
-bash "${TMPDIR}/feature_extraction/extract_features_sharded.sh" "${TMPDIR}/pp/data" "${TMPDIR}/pp/output" 1 32
+bash "${TMPDIR}/feature_extraction/feature_extraction_sharded.sh" "${TMPDIR}/pp/data" "${TMPDIR}/pp/output" 1 32
 mkdir -p ${BENCH}/features/pp/
 mv ${TMPDIR}/pp/output ${BENCH}/features/pp/
 
