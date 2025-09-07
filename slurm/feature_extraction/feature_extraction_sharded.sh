@@ -80,7 +80,9 @@ for shard_file in "$OUTPUT_DIR"/shard_tmp_*; do
             --wsi_dir "$DATA_DIR" \
             --custom_list_of_wsis "$SHARD_LIST" \
             --job_dir "$SHARD_DIR" \
-            --patch_encoder "$PATCH_ENCODER"
+            --patch_encoder "$PATCH_ENCODER" \
+            --mag "$MAG" \
+            --patch_size "$PATCHSIZE" 
     ) &
 
     SHARD_INDEX=$((SHARD_INDEX + 1))
