@@ -5,7 +5,7 @@
 #SBATCH --error=histai_b1_seg_sharded.err
 #SBATCH --time=48:00:00
 #SBATCH --nodes=1
-#SBATCH --mem=110000m
+#SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=sinclair.rockwell-kollmann@pharmazie.uni-freiburg.de
 #SBATCH --ntasks=10
