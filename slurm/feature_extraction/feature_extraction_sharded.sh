@@ -23,6 +23,9 @@ N_SHARDS="$4"
 TASK="${5:-all}" # Default task is 'all'
 PATCH_ENCODER="${6:-uni_v2}" # Default patch encoder is 'uni_v2'
 MAG="${7:-20x}" # Default magnification is '20x'
+
+# If mag ends with x, remove it
+MAG="${MAG%x}"
 PATCHSIZE="${8:-512}" # Default patch size is '512'
 
 LIST_FILE="${DATA_DIR}/list_of_files.csv"
