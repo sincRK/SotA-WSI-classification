@@ -50,9 +50,9 @@ bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JS
 which python
 
 # conch_v15 - 2:30h x 4
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat conch_v15 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat conch_v15 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat conch_v15 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat conch_v15 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 17 feat conch_v15 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 17 feat conch_v15 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 17 feat conch_v15 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 17 feat conch_v15 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
 
 rsync -av ${TMPDIR}/cobra_features $BENCH

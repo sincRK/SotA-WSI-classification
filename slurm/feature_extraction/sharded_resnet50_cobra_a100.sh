@@ -51,9 +51,9 @@ which python
 
 # resnet50 - 0:10h x 4
 # 14 shards = 22 GB GPU memory, can be increased
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 16 feat resnet50 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 16 feat resnet50 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 16 feat resnet50 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 16 feat resnet50 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat resnet50 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat resnet50 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat resnet50 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat resnet50 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
 
 rsync -av ${TMPDIR}/cobra_features $BENCH
