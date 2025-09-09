@@ -4,6 +4,7 @@
     "uni_v2": "/data/hf_models_bench/uni_v2/pytorch_model.bin",
     "ctranspath": "/data/hf_models_bench/ctranspath/CHIEF_CTransPath.pth",
     "phikon": "/data/hf_models_bench/phikon/pytorch_model.bin",
+    "dino_v3": "/data/hf_models_bench/dino_v3/model.safetensors",
     "resnet50": "",
     "gigapath": "/data/hf_models_bench/provgigapath/pytorch_model.bin",
     "virchow": "/data/hf_models_bench/virchow/pytorch_model.bin",
