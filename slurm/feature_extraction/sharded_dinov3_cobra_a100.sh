@@ -3,7 +3,7 @@
 #SBATCH --job-name=cobra_feat_sharded
 #SBATCH --output=cobra_feat_sharded.out
 #SBATCH --error=cobra_feat_sharded.err
-#SBATCH --time=8:00:00
+#SBATCH --time=10:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
@@ -50,9 +50,9 @@ bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JS
 which python
 
 # dino_v3 - 1:30h x 4
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
 
 rsync -av ${TMPDIR}/cobra_features $BENCH
