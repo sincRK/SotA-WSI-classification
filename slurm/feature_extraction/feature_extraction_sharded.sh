@@ -12,6 +12,11 @@
 # wrap this script in for loop over the tasks and patch encoders you want to run.
 #
 # The output with be a folder called "$PATH_ENCODER" in each shard folder.
+#
+# Caveats:
+# - the job_dir parameter might be bugged in trident. saveto of Processor ends up in same folder as coords.
+# - the wsi_cache parameter is not as useful as gpu parallelism.
+# - with large enough gpu it becomes i/o bound. 1 worker per gpu feed is too few.
 
 
 set -euo pipefail
@@ -27,6 +32,8 @@ MAG="${7:-20x}" # Default magnification is '20x'
 # If mag ends with x, remove it
 MAG="${MAG%x}"
 PATCHSIZE="${8:-512}" # Default patch size is '512'
+BATCHSIZE="${9:-64}" # Default batch size is '64'
+COORDS_DIR="${10:-}" # Default coords dir is empty
 
 LIST_FILE="${DATA_DIR}/list_of_files.csv"
 
@@ -85,7 +92,8 @@ for shard_file in "$OUTPUT_DIR"/shard_tmp_*; do
             --job_dir "$SHARD_DIR" \
             --patch_encoder "$PATCH_ENCODER" \
             --mag "$MAG" \
-            --patch_size "$PATCHSIZE" 
+            --patch_size "$PATCHSIZE" \
+            --coords_dir "$COORDS_DIR"
     ) &
 
     SHARD_INDEX=$((SHARD_INDEX + 1))
