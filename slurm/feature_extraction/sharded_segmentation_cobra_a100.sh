@@ -24,7 +24,7 @@ cp -r ${BENCH}/cobra/packages/ood/images ${TMPDIR}
 
 cp -r ${BENCH}/hf_models_bench $TMPDIR
 
-mkdir ${TMPDIR}/cobra_features
+mkdir ${TMPDIR}/cobra_segmentation
 
 git clone -b dev --single-branch https://github.com/sincRK/TRIDENT.git
 
@@ -52,5 +52,5 @@ bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JS
 
 which python
 # 45 min on 1 a100
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${TMPDIR}/images ${TMPDIR}/cobra_features 5 10 seg 
-cp -r ${TMPDIR}/cobra_features $BENCH
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${TMPDIR}/images ${TMPDIR}/cobra_segmentation 5 10 seg
+cp -r ${TMPDIR}/cobra_segmentation $BENCH
