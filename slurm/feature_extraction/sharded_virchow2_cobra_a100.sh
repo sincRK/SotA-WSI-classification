@@ -3,7 +3,7 @@
 #SBATCH --job-name=cobra_feat_sharded
 #SBATCH --output=cobra_feat_sharded.out
 #SBATCH --error=cobra_feat_sharded.err
-#SBATCH --time=8:00:00
+#SBATCH --time=10:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
