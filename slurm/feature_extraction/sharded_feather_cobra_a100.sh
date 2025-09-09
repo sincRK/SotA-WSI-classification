@@ -17,10 +17,12 @@
 module load devel/miniforge/24.9.2
 conda activate trident
 
-cd $TMPDIR
+cd $BENCH
 
 # 30 min
-cp -r ${BENCH}/cobra_features/ ${TMPDIR}
+cp --parents -r cobra_features/*/patches/ ${TMPDIR}
+
+cd $TMPDIR
 
 cp -r ${BENCH}/hf_models_bench $TMPDIR
 
