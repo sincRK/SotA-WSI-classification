@@ -19,7 +19,8 @@ conda activate trident
 
 cd $TMPDIR
 
-cp -r ${BENCH}/histai/histai_skin/skin-b2 $TMPDIR
+cp ${BENCH}/histai/histai_skin/skin-b2.tar $TMPDIR
+tar -xvf ${TMPDIR}/skin-b2.tar
 cp -r ${BENCH}/hf_models_bench $TMPDIR
 
 mkdir ${TMPDIR}/histai_skin_b2_features
