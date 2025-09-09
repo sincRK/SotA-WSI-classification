@@ -31,6 +31,7 @@ MAG="${7:-20x}" # Default magnification is '20x'
 
 # If mag ends with x, remove it
 MAG="${MAG%x}"
+
 PATCHSIZE="${8:-512}" # Default patch size is '512'
 BATCHSIZE="${9:-64}" # Default batch size is '64'
 COORDS_DIR="${10:-}" # Default coords dir is empty
