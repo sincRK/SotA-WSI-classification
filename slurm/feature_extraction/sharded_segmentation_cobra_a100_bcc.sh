@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#SBATCH --job-name=cobra_feat_sharded
-#SBATCH --output=cobra_feat_sharded.out
-#SBATCH --error=cobra_feat_sharded.err
-#SBATCH --time=8:00:00
+#SBATCH --job-name=cobra_seg_sharded
+#SBATCH --output=cobra_seg_sharded.out
+#SBATCH --error=cobra_seg_sharded.err
+#SBATCH --time=12:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
@@ -17,18 +17,21 @@
 module load devel/miniforge/24.9.2
 conda activate trident
 
-cd $BENCH
-
-# 30 min
-cp --parents -r cobra_features/*/patches/ ${TMPDIR}
-
 cd $TMPDIR
 
+# 20 - 30 min
+cp -r ${BENCH}/cobra/packages/bcc/images ${TMPDIR}
+
 cp -r ${BENCH}/hf_models_bench $TMPDIR
+
+mkdir ${TMPDIR}/cobra_segmentation
 
 git clone -b dev --single-branch https://github.com/sincRK/TRIDENT.git
 
 cp -r ${HOME}/SotA-WSI-classification/slurm/feature_extraction $TMPDIR
+
+# Create list of files
+bash ${TMPDIR}/feature_extraction/create_list_of_files.sh ${TMPDIR}/images tif 0.5
 
 MODEL_DIR="hf_models_bench"
 
@@ -48,11 +51,6 @@ cp ${TMPDIR}/feature_extraction/slide_encoder_models/local_ckpts.json $INPUT_JSO
 bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JSON $MODEL_DIR ${TMPDIR}/hf_models_bench
 
 which python
-
-# dino_v3 - 1:30h x 4
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 14 feat dino_v3 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
-
-rsync -av ${TMPDIR}/cobra_features $BENCH
+# 45 min on 1 a100
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${TMPDIR}/images ${TMPDIR}/cobra_segmentation 5 10 seg
+rsync -av ${TMPDIR}/cobra_segmentation $BENCH

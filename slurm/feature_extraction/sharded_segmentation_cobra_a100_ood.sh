@@ -3,9 +3,9 @@
 #SBATCH --job-name=cobra_seg_sharded
 #SBATCH --output=cobra_seg_sharded.out
 #SBATCH --error=cobra_seg_sharded.err
-#SBATCH --time=6:00:00
+#SBATCH --time=10:00:00
 #SBATCH --nodes=1
-#SBATCH --mem=110000m
+#SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=sinclair.rockwell-kollmann@pharmazie.uni-freiburg.de
 #SBATCH --ntasks=10
@@ -53,4 +53,4 @@ bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JS
 which python
 # 45 min on 1 a100
 bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${TMPDIR}/images ${TMPDIR}/cobra_segmentation 5 10 seg
-cp -r ${TMPDIR}/cobra_segmentation $BENCH
+rsync -av ${TMPDIR}/cobra_segmentation $BENCH
