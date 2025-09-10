@@ -14,7 +14,7 @@
 #SBATCH --partition=gpu
 
 FEAT_DIR="pp_features"
-PATCH_ENCODER="conch_v15"
+PATCH_ENCODER="virchow2"
 DATA_DIR="${BENCH}/pp"
 
 module load devel/miniforge/24.9.2
