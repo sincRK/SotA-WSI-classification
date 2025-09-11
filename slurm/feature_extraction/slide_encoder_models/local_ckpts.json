@@ -1,5 +1,6 @@
 {
     "chief": "/data/hf_models_bench/chief/CHIEF_pretraining.pth",
     "madeleine": "/data/hf_models_bench/madeleine/model.pt",
-    "feather": "/data/hf_models_bench/feather/abmil_base_conch_v15_pc108_24k/model.safetensors"
+    "feather": "/data/hf_models_bench/feather/abmil_base_conch_v15_pc108_24k/model.safetensors",
+    "titan": "/data/hf_models_bench/titan/model.safetensors"
 }
