@@ -1,0 +1,18 @@
+# Finetune Model
+MODEL=abmil
+EXPERIMENT=finetune
+MODIFIER=after
+OUT_DIR="features_${ENCODER}_${MODIFIER}_${EXPERIMENT}_${MODEL}"
+TASK_CODE="${DATASET}_${MAG}_${PATCH_SIZE}px_0px_overlap_${ENCODER}_${MODIFIER}_${EXPERIMENT}_${MODEL}"
+python $PATHBENCH_DIR/patho_bench/scripts/sweep_single_task.py \
+    --experiment_type ${EXPERIMENT} \
+    --model_name $MODEL \
+    --model_kwargs_yaml ${CONFIG_DIR}/${MODEL}_kwargs_${ENCODER}.yaml \
+    --task_code ${TASK_CODE}--${TASK_CODE} \
+    --combine_slides_per_patient False \
+    --saveto ${OUTBASE}/${OUT_DIR} \
+    --hyperparams_yaml ${CONFIG_DIR}/${EXPERIMENT}/${MODEL}.yaml \
+    --patch_dirs_yaml ${CONFIG_DIR}/patch_embeddings_paths.yaml \
+    --path_to_split ${SPLIT_DIR}/${DATASET}_folds.csv \
+    --path_to_task_config ${CONFIG_DIR}/${DATASET}_config.yaml \
+    --pooled_dirs_yaml ${CONFIG_DIR}/pooled_embeddings_paths.yaml

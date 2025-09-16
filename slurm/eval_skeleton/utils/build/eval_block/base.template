@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -euo pipefail
+
+BASE_DIR=$TMPDIR
+DATASET=cobra_ood
+ENCODER=resnet50
+PATHBENCH_DIR=${BASE_DIR}/Patho-Bench
+MAG=20x
+PATCH_SIZE=512
+CONFIG_DIR=${BASE_DIR}/eval_skeleton/${DATASET}/configs
+SPLIT_DIR=${BASE_DIR}/eval_skeleton/${DATASET}/
+
+OUTBASE=${BASE_DIR}/eval_skeleton/${DATASET}/${MAG}_${PATCH_SIZE}px_0px_overlap/${ENCODER}

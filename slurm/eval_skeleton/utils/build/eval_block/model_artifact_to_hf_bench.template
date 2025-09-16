@@ -1,0 +1,31 @@
+all_test_metrics=$(find ${OUTBASE}/${OUT_DIR} -type f -wholename "*/test_metrics/fold_*/metrics.json")
+METRIC="weighted-f1"
+
+# Read all metrics from the files and find fold with best metric
+# json is build as {"overall": {"weighted-f1": 0.75, "accuracy": 0.8, ...}}
+best_fold=""
+best_metric=-1
+for file in $all_test_metrics; do
+    fold=$(echo $file | grep -oP 'fold_\K[0-9]+')
+    metric_value=$(jq -r --arg metric "$METRIC" '.overall[$metric]' $file)
+    echo "Fold: $fold, $METRIC: $metric_value"
+    if (( $(echo "$metric_value > $best_metric" | bc -l) )); then
+        best_metric=$metric_value
+        best_fold=$fold
+    fi
+done
+
+echo "Best fold: $best_fold with $METRIC = $best_metric"
+
+best_model_path=$(find ${OUTBASE}/${OUT_DIR} -type f -wholename "*/checkpoints/fold_${best_fold}/epoch_*.pt")
+
+# Get real path of the best model
+best_model_real_path=$(realpath $best_model_path)
+echo "Best model path: $best_model_real_path"
+
+hf_model_path="${BASE_DIR}/hf_models_bench/${MODEL}"
+cp $best_model_path $hf_model_path
+artifact=$(basename ${best_model_path})
+cp ${CONFIG_DIR}/${MODEL}_kwargs_${ENCODER}.yaml ${OUTBASE}/${MODEL}_kwargs_${ENCODER}_finetuned.yaml
+echo "weights_path: ${hf_model_path}/${artifact}" >> ${OUTBASE}/${MODEL}_kwargs_${ENCODER}_finetuned.yaml
+sed -i 's/pretrained: False/pretrained: True/' ${OUTBASE}/${MODEL}_kwargs_${ENCODER}_finetuned.yaml

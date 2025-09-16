@@ -1,0 +1,29 @@
+task_col: COBRA_ood # Column containing labels for the task
+extra_cols: [] # Any extra columns needed to perform the task (e.g. survival tasks)
+task_type: "classification"
+
+metrics: # List of one or more performance metrics to report (this is used for automated result compilation when using Patho-Bench in advanced mode)
+  - macro-ovr-auc
+  - acc
+  - macro-f1
+  - weighted-f1
+
+folds: 5 # Number of cross-validation folds to use (only used in advanced mode)
+
+label_dict: # Dictionary of integer labels to string labels
+  0: Cutaneous metastases
+  1: Merkel cell carcinoma
+  2: Basal cell carcinoma
+  3: Benign
+  4: Benign sebaceous gland tumor
+  5: Cylindroma
+  6: Lymphoma
+  7: Melanoma
+  8: Melanoma in situ
+  9: Microcystic adnexal carcinoma
+  10: No abnormalities
+  11: Squamous cell carcinoma
+  12: Sebaceous gland carcinoma
+  13: "Skin adnexal carcinoma, other"
+
+sample_col: slide_id # Column containing the unit of analysis. Use 'case_id' for patient-level tasks and 'slide_id' for slide-level tasks.

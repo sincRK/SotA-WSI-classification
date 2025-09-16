@@ -1,0 +1,6 @@
+input_feature_dim: 768
+n_heads: 1
+head_dim: 512
+dropout: 0.25
+gated: True
+pretrained: False
