@@ -17,6 +17,10 @@
 module load devel/miniforge/24.9.2
 conda activate trident
 
+FEAT_DIR="cobra_features"
+PATCH_ENCODER="dino_v3"
+DATA_DIR="${BENCH}/cobra/packages/ood/images/"
+
 cd $BENCH
 
 # 30 min
@@ -50,11 +54,14 @@ bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JS
 which python
 
 # dino_v3 - 1:30h x 4
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 20 512 128 ${TMPDIR}/cobra_features/20x_512px_0px_overlap/
-rsync -av ${TMPDIR}/cobra_features $BENCH
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 20 256 128 ${TMPDIR}/cobra_features/20x_256px_0px_overlap/
-rsync -av ${TMPDIR}/cobra_features $BENCH
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 10 512 128 ${TMPDIR}/cobra_features/10x_512px_0px_overlap/
-rsync -av ${TMPDIR}/cobra_features $BENCH
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh ${BENCH}/cobra/packages/ood/images/ ${TMPDIR}/cobra_features 3 18 feat dino_v3 10 256 128 ${TMPDIR}/cobra_features/10x_256px_0px_overlap/
-rsync -av ${TMPDIR}/cobra_features $BENCH
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 3 18 feat $PATCH_ENCODER 20 512 128 ${TMPDIR}/${FEAT_DIR}/20x_512px_0px_overlap/
+rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
+
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 3 18 feat $PATCH_ENCODER 20 256 128 ${TMPDIR}/${FEAT_DIR}/20x_256px_0px_overlap/
+rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
+
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 3 18 feat $PATCH_ENCODER 10 512 128 ${TMPDIR}/${FEAT_DIR}/10x_512px_0px_overlap/
+rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
+
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 3 18 feat $PATCH_ENCODER 10 256 128 ${TMPDIR}/${FEAT_DIR}/10x_256px_0px_overlap/
+rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
