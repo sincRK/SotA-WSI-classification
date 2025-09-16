@@ -1,0 +1,26 @@
+task_col: icd_10 # Column containing labels for the task
+extra_cols: [] # Any extra columns needed to perform the task (e.g. survival tasks)
+task_type: "classification"
+
+metrics: # List of one or more performance metrics to report (this is used for automated result compilation when using Patho-Bench in advanced mode)
+  - macro-ovr-auc
+  - acc
+  - macro-f1
+  - weighted-f1
+
+folds: 5 # Number of cross-validation folds to use (only used in advanced mode)
+
+label_dict: # Dictionary of integer labels to string labels
+  0: 'C43.9'
+  1: 'C44.9'
+  2: 'C79.2'
+  3: 'C81-C96'
+  4: 'D03.9'
+  5: 'D18.0'
+  6: 'D22.9'
+  7: 'D23.9'
+  8: 'L57.0'
+  9: 'L82'
+  10: 'other'
+
+sample_col: slide_id # Column containing the unit of analysis. Use 'case_id' for patient-level tasks and 'slide_id' for slide-level tasks.

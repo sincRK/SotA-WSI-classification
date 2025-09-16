@@ -18,10 +18,10 @@ find $BASE_DIR -type f -name "eval.sh" | while read -r file; do
     echo "Processing $file"
 
     # Extract variables from the path
-    DATASET=$(echo $file | split -d '/' -f 5)
-    MAG=$(echo $file | split -d '/' -f 6 | cut -d'_' -f 1)
-    PATCH_SIZE=$(echo $file | split -d '/' -f 6 | cut -d'_' -f 2 | sed 's/px//g')
-    ENCODER=$(echo $file | split -d '/' -f 7)
+    DATASET=$(echo $file | cut -d '/' -f 5)
+    MAG=$(echo $file | cut -d '/' -f 6 | cut -d'_' -f 1)
+    PATCH_SIZE=$(echo $file | cut -d '/' -f 6 | cut -d'_' -f 2 | sed 's/px//g')
+    ENCODER=$(echo $file | cut -d '/' -f 7)
 
     echo "Extracted variables: DATASET=$DATASET, MAG=$MAG, PATCH_SIZE=$PATCH_SIZE, ENCODER=$ENCODER"
 

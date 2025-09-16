@@ -11,19 +11,21 @@ metrics: # List of one or more performance metrics to report (this is used for a
 folds: 5 # Number of cross-validation folds to use (only used in advanced mode)
 
 label_dict: # Dictionary of integer labels to string labels
-  0: Cutaneous metastases
-  1: Merkel cell carcinoma
-  2: Basal cell carcinoma
-  3: Benign
-  4: Benign sebaceous gland tumor
-  5: Cylindroma
-  6: Lymphoma
-  7: Melanoma
-  8: Melanoma in situ
-  9: Microcystic adnexal carcinoma
-  10: No abnormalities
-  11: Squamous cell carcinoma
-  12: Sebaceous gland carcinoma
-  13: "Skin adnexal carcinoma, other"
+  0: 'B07'
+  1: 'C43.9'
+  2: 'C44.9'
+  3: 'C79.2'
+  4: 'C81-C96'
+  5: 'D03.9'
+  6: 'D04.9'
+  7: 'D18.0'
+  8: 'D22.9'
+  9: 'D23.9'
+  10: 'K04.8'
+  11: 'L57.0'
+  12: 'L72.0'
+  13: 'L82'
+  14: 'L90.5'
+  15: 'other'
 
 sample_col: slide_id # Column containing the unit of analysis. Use 'case_id' for patient-level tasks and 'slide_id' for slide-level tasks.

@@ -1,0 +1,4800 @@
+cobra_ood_10x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood/10x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood/10x_256px_0px_overlap/slide_features_titan
+cobra_ood_10x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood/10x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood/10x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood/10x_512px_0px_overlap/slide_features_titan
+cobra_ood_10x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/10x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood/10x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood/20x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood/20x_256px_0px_overlap/slide_features_titan
+cobra_ood_20x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood/20x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood/20x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood/20x_512px_0px_overlap/slide_features_titan
+cobra_ood_20x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood/20x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood/20x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t10/10x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t10/10x_256px_0px_overlap/slide_features_titan
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t10/10x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t10_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t10/10x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t10/10x_512px_0px_overlap/slide_features_titan
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/10x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t10/10x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t10_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t10/20x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t10/20x_256px_0px_overlap/slide_features_titan
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t10/20x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t10_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t10/20x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t10/20x_512px_0px_overlap/slide_features_titan
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t10/20x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t10/20x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t10_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t2/10x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t2/10x_256px_0px_overlap/slide_features_titan
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t2/10x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t2_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t2/10x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t2/10x_512px_0px_overlap/slide_features_titan
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/10x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t2/10x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t2_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t2/20x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t2/20x_256px_0px_overlap/slide_features_titan
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t2/20x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t2_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t2/20x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t2/20x_512px_0px_overlap/slide_features_titan
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t2/20x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t2/20x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t2_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t35/10x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t35/10x_256px_0px_overlap/slide_features_titan
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t35/10x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t35_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t35/10x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t35/10x_512px_0px_overlap/slide_features_titan
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/10x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t35/10x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t35_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t35/20x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t35/20x_256px_0px_overlap/slide_features_titan
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t35/20x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t35_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_pp_t35/20x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_pp_t35/20x_512px_0px_overlap/slide_features_titan
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_pp_t35/20x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_pp_t35/20x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_pp_t35_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_test_pp/10x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_test_pp/10x_256px_0px_overlap/slide_features_titan
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_test_pp/10x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_test_pp_10x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_test_pp/10x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_test_pp/10x_512px_0px_overlap/slide_features_titan
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/10x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_test_pp/10x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_test_pp_10x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_test_pp/20x_256px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_test_pp/20x_256px_0px_overlap/slide_features_titan
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_256px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_test_pp/20x_256px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_test_pp_20x_256px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_conch_v15_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_conch_v15_after_finetune_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_conch_v15_after_finetune_titan
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_conch_v15_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: TMPDIR/cobra_ood_test_pp/20x_512px_0px_overlap/slide_features_feather
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_conch_v15_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: TMPDIR/cobra_ood_test_pp/20x_512px_0px_overlap/slide_features_titan
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_dino_v3_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_dino_v3_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_dino_v3_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_resnet50_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_resnet50_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_resnet50_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_after_finetune_abmil:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_virchow2_after_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_virchow2_after_finetune_prism
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_after_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_abmil:
+  abmil: TMPDIR/eval_skeleton/cobra_ood_test_pp/20x_512px_0px_overlap/features_virchow2_wo_finetune_abmil
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_feather:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_prism:
+  abmil: ''
+  feather: ''
+  prism: TMPDIR/cobra_ood_test_pp/20x_512px_0px_overlap/slide_features_prism
+  titan: ''
+cobra_ood_test_pp_20x_512px_0px_overlap_virchow2_linprobe_wo_finetune_titan:
+  abmil: ''
+  feather: ''
+  prism: ''
+  titan: ''
