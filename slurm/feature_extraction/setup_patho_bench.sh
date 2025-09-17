@@ -19,8 +19,8 @@ conda activate patho_bench
 # add trident to python path
 cd ${TMPDIR}/TRIDENT
 SITE_PACKAGES=$(python -c "import sysconfig; print(sysconfig.get_paths()['purelib'])")
-echo $(pwd) > ${SITE_PACKAGES}/trident.pth
+echo $(pwd) >> ${SITE_PACKAGES}/trident.pth
 
 # add patho_bench to python path
 cd ${TMPDIR}/Patho-Bench
-echo $(pwd) > ${SITE_PACKAGES}/patho_bench.pth
+echo $(pwd) >> ${SITE_PACKAGES}/patho_bench.pth
