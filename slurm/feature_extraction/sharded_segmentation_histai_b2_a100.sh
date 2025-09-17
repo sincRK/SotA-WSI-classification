@@ -3,7 +3,7 @@
 #SBATCH --job-name=histai_b2_seg_sharded
 #SBATCH --output=histai_b2_seg_sharded.out
 #SBATCH --error=histai_b2_seg_sharded.err
-#SBATCH --time=48:00:00
+#SBATCH --time=60:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
