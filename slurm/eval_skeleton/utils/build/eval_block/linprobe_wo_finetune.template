@@ -10,9 +10,9 @@ python $PATHBENCH_DIR/patho_bench/scripts/sweep_single_task.py \
     --model_kwargs_yaml ${CONFIG_DIR}/${MODEL}_kwargs_${ENCODER}.yaml \
     --task_code ${TASK_CODE}--${TASK_CODE} \
     --combine_slides_per_patient False \
-    --saveto ${OUTDIR}/${OUT_DIR} \
+    --saveto ${OUTBASE}/${OUT_DIR} \
     --hyperparams_yaml ${CONFIG_DIR}/${EXPERIMENT}/linprobe.yaml \
     --patch_dirs_yaml ${CONFIG_DIR}/patch_embeddings_paths.yaml \
-    --path_to_split ${SPLIT_DIR}/${DATASET}.csv \
+    --path_to_split ${SPLIT_DIR}/${DATASET}_folds.csv \
     --path_to_task_config ${CONFIG_DIR}/${DATASET}_config.yaml \
     --pooled_dirs_yaml ${CONFIG_DIR}/pooled_embeddings_paths.yaml
