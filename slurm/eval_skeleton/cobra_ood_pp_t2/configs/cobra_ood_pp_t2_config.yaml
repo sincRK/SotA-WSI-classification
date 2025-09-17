@@ -1,4 +1,4 @@
-task_col: COBRA_ood # Column containing labels for the task
+task_col: icd_10 # Column containing labels for the task
 extra_cols: [] # Any extra columns needed to perform the task (e.g. survival tasks)
 task_type: "classification"
 
@@ -20,21 +20,18 @@ label_dict: # Dictionary of integer labels to string labels
   6: 'D04.9'
   7: 'D18.0'
   8: 'D22.9'
-  9: 'D23.3'
-  10: 'D23.9'
-  11: 'K04.8'
-  12: 'L08.0'
-  13: 'L28.2'
-  14: 'L30.9'
-  15: 'L43.8'
-  16: 'L57.0'
-  17: 'L60.0'
-  18: 'L72.0'
-  19: 'L72.1'
-  20: 'L73.9'
-  21: 'L81.4'
-  22: 'L82'
-  23: 'L90.5'
-  24: 'other'
+  9: 'D23.9'
+  10: 'K04.8'
+  11: 'L08.0'
+  12: 'L28.2'
+  13: 'L30.9'
+  14: 'L57.0'
+  15: 'L72.0'
+  16: 'L72.1'
+  17: 'L73.9'
+  18: 'L81.4'
+  19: 'L82'
+  20: 'L90.5'
+  21: 'other'
 
 sample_col: slide_id # Column containing the unit of analysis. Use 'case_id' for patient-level tasks and 'slide_id' for slide-level tasks.

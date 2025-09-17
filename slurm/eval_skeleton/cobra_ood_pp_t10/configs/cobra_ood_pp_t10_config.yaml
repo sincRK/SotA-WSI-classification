@@ -1,4 +1,4 @@
-task_col: COBRA_ood # Column containing labels for the task
+task_col: icd_10 # Column containing labels for the task
 extra_cols: [] # Any extra columns needed to perform the task (e.g. survival tasks)
 task_type: "classification"
 
