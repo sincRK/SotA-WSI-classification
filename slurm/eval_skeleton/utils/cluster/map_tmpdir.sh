@@ -17,10 +17,10 @@ if [ ! -d "$BASE_DIR" ]; then
 fi
 
 # Find all *embeddings_paths.yaml files
-embeddings_paths=$(find "${BASE_DIR}" -type f -wholename "${BASE_DIR}/eval_skeleton/*/configs/*embeddings_paths.yaml")
+embeddings_paths=$(find "${BASE_DIR}" -type f -wholename "${BASE_DIR}/**/configs/*embeddings_paths.yaml")
 
 if [ -z "$embeddings_paths" ]; then
-    echo "No *embeddings_paths.yaml files found matching pattern: ${BASE_DIR}/eval_skeleton/*/configs/*embeddings_paths.yaml"
+    echo "No *embeddings_paths.yaml files found matching pattern: ${BASE_DIR}/**/configs/*embeddings_paths.yaml"
     exit 0
 fi
 
