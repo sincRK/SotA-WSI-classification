@@ -14,7 +14,7 @@
 #SBATCH --partition=gpu
 
 FEAT_DIR="pp_features"
-PATCH_ENCODER="uni_v1"
+PATCH_ENCODER="hoptimus1"
 DATA_DIR="${BENCH}/pp"
 
 module load devel/miniforge/24.9.2
