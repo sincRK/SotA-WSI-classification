@@ -53,14 +53,14 @@ bash ${TMPDIR}/feature_extraction/rewrite_trident_ckpts.sh $INPUT_JSON $INPUT_JS
 which python
 
 # conch_v15 - 2:30h x 4
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 14 feat $PATCH_ENCODER 20 512 128 ${TMPDIR}/${FEAT_DIR}/20x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 13 feat $PATCH_ENCODER 20 512 128 ${TMPDIR}/${FEAT_DIR}/20x_512px_0px_overlap/
 rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
 
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 14 feat $PATCH_ENCODER 20 256 128 ${TMPDIR}/${FEAT_DIR}/20x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 13 feat $PATCH_ENCODER 20 256 128 ${TMPDIR}/${FEAT_DIR}/20x_256px_0px_overlap/
 rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
 
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 14 feat $PATCH_ENCODER 10 512 128 ${TMPDIR}/${FEAT_DIR}/10x_512px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 13 feat $PATCH_ENCODER 10 512 128 ${TMPDIR}/${FEAT_DIR}/10x_512px_0px_overlap/
 rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
 
-bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 14 feat $PATCH_ENCODER 10 256 128 ${TMPDIR}/${FEAT_DIR}/10x_256px_0px_overlap/
+bash ${TMPDIR}/feature_extraction/feature_extraction_sharded.sh $DATA_DIR ${TMPDIR}/${FEAT_DIR} 1 13 feat $PATCH_ENCODER 10 256 128 ${TMPDIR}/${FEAT_DIR}/10x_256px_0px_overlap/
 rsync -av ${TMPDIR}/${FEAT_DIR} $BENCH
