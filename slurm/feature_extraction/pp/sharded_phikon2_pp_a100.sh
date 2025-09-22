@@ -3,7 +3,7 @@
 #SBATCH --job-name=pp_feat_sharded
 #SBATCH --output=pp_feat_sharded_phikon2.out
 #SBATCH --error=pp_feat_sharded_phikon2.err
-#SBATCH --time=4:00:00
+#SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --mem=150000m
 #SBATCH --mail-type=END,FAIL
