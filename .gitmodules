@@ -1,0 +1,3 @@
+[submodule "medicalcoding/icd11_coding"]
+	path = medicalcoding/icd11_coding
+	url = https://github.com/sincRK/icd11_coding
