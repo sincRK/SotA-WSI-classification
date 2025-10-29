@@ -21,5 +21,6 @@
     "lunit-vits8": "/data/hf_models_bench/lunit/model.safetensors",
     "conch_v15": "/data/hf_models_bench/conch_v15/pytorch_model_vision.bin",
     "musk": "",
+    "panderm":"/data/hf_models_bench/panderm_ll_data6_checkpoint-499.pth",
     "custom_encoder": ""
 }
